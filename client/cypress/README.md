@@ -1,8 +1,9 @@
 
-This project is created using React, Express and MongoDB.
+This is the Cypress testing directory.
 
 
-To get this project running on your machine, you will need the following installed:
+To get these tests to run on your machine, you will need the following installed:
+* Cypress - saved as a dependancy in your project
 * Node js
 * MongoDB Atlas
 
@@ -58,3 +59,39 @@ npm start
 
 * The client will run on the following url - [http://localhost:3000/](http://localhost:3000/)
 
+### Cypress Testing
+You can open Cypress from your **project root** one of the following ways:
+
+**Using `npx`**
+
+**Note**: [npx](https://www.npmjs.com/package/npx) is included with `npm > v5.2`
+or can be installed separately.
+
+```shell
+npx cypress open
+```
+
+**Or by using `yarn`**
+
+```shell
+yarn run cypress open
+```
+
+**The long way with the full path**
+
+```shell
+./node_modules/.bin/cypress open
+```
+
+**Or with the shortcut using `npm bin`**
+
+```shell
+$(npm bin)/cypress open
+```
+
+After a moment, the Cypress App will launch.
+
+From here:
+
+* search for "project" within cypress
+* click run integration tests
