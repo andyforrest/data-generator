@@ -4,11 +4,7 @@ describe('Data Generator', () => {
         cy.visit('http://localhost:3000/')
     })
 
-    it('Checks if first name has been added', () => {
-        cy.get('#select-key-drop-basic').select('firstName')
-        cy.get('#btn-add-prop').click()
-        cy.get('#object-props > ul').should('contain.text', 'firstName')
-    })
+    
 
     it('Check if it generates and arranges a CSV available for download', () => {
         cy.get('#entries-input').type("1")
