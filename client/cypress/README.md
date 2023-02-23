@@ -3,7 +3,7 @@ This is the Cypress testing directory.
 
 
 To get these tests to run on your machine, you will need the following installed:
-* Cypress - saved as a dependancy in your project
+* Cypress -> saved as a dependancy in your project
 * Node js
 * MongoDB Atlas
 
@@ -29,7 +29,7 @@ brew install node
 
 * Clone the repo into a folder on your machine using this command
 ```ssh
-git clone https://github.com/2i-Git/data-generator-csv.git
+git clone https://github.com/andyforrest/data-generator.git
 ```
 * Open terminal and execute the following commands
 ```ssh
