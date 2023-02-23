@@ -2,7 +2,7 @@ The goal of this project was to:
 * Develop a UI Test Pack that can test this application using Cypress
 * Use Cypress to automate taking CSV output from the application to fill in the web form I created
 
-To see the work I contributed to the project, please see: /client/cypress :smiley: 
+To see the work I contributed to the project, please see: /client/ and /client/cypress/ :smiley: 
 
 
 To get this application running on your machine, you will need the following installed:
