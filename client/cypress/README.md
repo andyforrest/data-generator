@@ -68,24 +68,32 @@ You can open Cypress from your **project root** one of the following ways:
 or can be installed separately.
 
 ```shell
+cd data-gen-csv
+cd client
 npx cypress open
 ```
 
 **Or by using `yarn`**
 
 ```shell
+cd data-gen-csv
+cd client
 yarn run cypress open
 ```
 
 **The long way with the full path**
 
 ```shell
+cd data-gen-csv
+cd client
 ./node_modules/.bin/cypress open
 ```
 
 **Or with the shortcut using `npm bin`**
 
 ```shell
+cd data-gen-csv
+cd client
 $(npm bin)/cypress open
 ```
 
