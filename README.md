@@ -1,8 +1,11 @@
+The goal of this project was to:
+* Develop a UI Test Pack that can test this application using Cypress
+* Use Cypress to automate taking CSV output from the application to fill in the web form I created
 
-This project is created using React, Express and MongoDB.
+To see the work I contributed to the project, please see: /client/cypress :smiley: 
 
 
-To get this project running on your machine, you will need the following installed:
+To get this application running on your machine, you will need the following installed:
 * Node js
 * MongoDB Atlas
 
@@ -28,7 +31,7 @@ brew install node
 
 * Clone the repo into a folder on your machine using this command
 ```ssh
-git clone https://github.com/2i-Git/data-generator-csv.git
+git clone https://github.com/andyforrest/data-generator.git
 ```
 * Open terminal and execute the following commands
 ```ssh
